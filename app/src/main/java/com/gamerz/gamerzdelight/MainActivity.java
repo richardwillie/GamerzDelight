@@ -28,6 +28,7 @@ public class MainActivity extends AppCompatActivity {
                 String location = mLocationEditText.getText().toString();
                 Log.d(TAG,location);
                 Intent intent = new Intent(MainActivity.this,searchActivity.class);
+                startActivity(intent);
             }
         });
     }
