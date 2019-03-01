@@ -18,7 +18,8 @@
         </activity>
         <activity android:name=".searchActivity" />
         <activity android:name=".about" />
-        <activity android:name=".results"></activity>
+        <activity android:name=".results" />
+        <activity android:name=".latest"></activity>
     </application>
 
 </manifest>

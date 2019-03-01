@@ -4,4 +4,6 @@
     <string name="name">Name</string>
     <string name="search">Search</string>
     <string name="searchedGames">Games</string>
+    <string name="aboutText">version1.1</string>
+    <string name="latest">Latest Games</string>
 </resources>
