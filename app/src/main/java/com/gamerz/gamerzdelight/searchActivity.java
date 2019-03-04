@@ -27,6 +27,6 @@ public class searchActivity extends AppCompatActivity {
         Intent intent = getIntent();
         String location = intent.getStringExtra("location");
 
-        mLocation.setText("you've searched for these games"+ location);
+        mLocation.setText("These are the games you have searched for"+ location);
     }
 }
