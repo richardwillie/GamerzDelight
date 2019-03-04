@@ -1,6 +1,7 @@
 package com.gamerz.gamerzdelight;
 
 import android.content.Intent;
+import android.graphics.Typeface;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -19,12 +20,17 @@ public class MainActivity extends AppCompatActivity {
     @BindView(R.id.locationEditText)EditText mLocationEditText;
     @BindView(R.id.textView)TextView mText;
     @BindView(R.id.textView2)TextView mView;
+    @BindView(R.id.appNameTextView)TextView mAppName;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         ButterKnife.bind(this);
+
+        Typeface tusjFont = Typeface.createFromAsset(getAssets(),"fonts/FFF_Tusj.ttf");
+        mAppName.setTypeface(tusjFont);
 
         mSearchButton.setOnClickListener(new View.OnClickListener() {
             @Override
