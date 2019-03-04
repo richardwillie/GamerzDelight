@@ -4,6 +4,6 @@
     <string name="name">Name</string>
     <string name="search">Search</string>
     <string name="searchedGames">Games</string>
-    <string name="aboutText">version1.1</string>
+    <string name="aboutText">Welcome to the GamersDelight app version 1.1.Find all the games you want to play and all the information you require regarding those games including their release dates, prices and the consoles that you can play them on.</string>
     <string name="latest">Latest Games</string>
 </resources>
