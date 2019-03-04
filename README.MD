@@ -13,6 +13,8 @@ currently has none identified but if any issue  arises in my application that ne
 this application has been written using Java
 ## Support
 Google+ Community
+### github link: https://github.com/richardwillie/GamerzDelight
 ### License
 *{ Licensed to ASF under one contributor license agreements}*
 Copyright (c) {2019} **{The Android Open Source Project, Inc}**
+
