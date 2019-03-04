@@ -16,6 +16,6 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="61dp"
         android:text="@string/aboutText"
-        android:textColor="@color/colorTextIcons"/>
+        android:textColor="@color/colorAccent"/>
 
 </RelativeLayout>
