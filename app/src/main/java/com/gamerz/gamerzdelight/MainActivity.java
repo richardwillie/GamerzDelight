@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
         mSearchButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(MainActivity.this,"Dundaing",Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this,"searching",Toast.LENGTH_SHORT).show();
                 String location = mLocationEditText.getText().toString();
 
                 Intent intent = new Intent(MainActivity.this,searchActivity.class);
